@@ -46,8 +46,13 @@ main {
 
 .main-header {
   margin-top: 40px;
-  font-size: 37px;
+  font-size: 39px;
   margin-bottom: 44px;
+  letter-spacing: -0.05em;
+}
+
+main ul {
+  max-width: 400px;
 }
 
 main li {
