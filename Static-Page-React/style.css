@@ -42,6 +42,9 @@ main {
   background-color: #282d35;
   height: 100vh;
   padding: 25px 35px;
+  background-image: url(src/assets/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .main-header {
