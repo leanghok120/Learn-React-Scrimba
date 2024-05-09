@@ -58,3 +58,8 @@ main ul {
 main li {
   margin-bottom: 20px;
 }
+
+main li::marker {
+  color: #61dafb;
+  font-size: 1.5rem;
+}
