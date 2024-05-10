@@ -3,6 +3,8 @@ import Navbar from "./Navbar"
 
 export default function App() {
   return (
-    <Navbar />
+    <main className="container">
+      <Navbar />
+    </main>
   )
 }
