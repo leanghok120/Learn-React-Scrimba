@@ -3,8 +3,8 @@ import Navbar from "./Navbar"
 
 export default function App() {
   return (
-    <main className="container">
+    <div className="container">
       <Navbar />
-    </main>
+    </div>
   )
 }

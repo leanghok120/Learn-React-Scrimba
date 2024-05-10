@@ -17,4 +17,5 @@ body {
 
 .air-logo {
   width: 82px;
+  max-width: 82px;
 }
