@@ -19,12 +19,14 @@ export default function App() {
   const cardElements = data.map((profile) => {
     return (
       <Card
+        key={profile.id}
         img={profile.coverImg}
         rating={profile.stats.rating}
         reviewCount={profile.stats.reviewCount}
         location={profile.location}
         title={profile.title}
         price={profile.price}
+        openSpots={profile.openSpots}
       />
     );
   });
@@ -33,7 +35,7 @@ export default function App() {
     <div className="container">
       <Navbar />
       <Hero />
-      {cardElements}
+      <section className="cards-container">{cardElements}</section>
     </div>
   );
 }
