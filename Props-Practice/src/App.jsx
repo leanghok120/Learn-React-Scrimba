@@ -1,10 +1,16 @@
 import React from "react";
 import Joke from "./Joke";
+import Jokes from "./jokesData";
 
 export default function App() {
+  const jokeElements = Jokes.map((joke) => {
+    return <Joke setup={joke.setup} punchline={joke.punchline} />;
+  });
   return (
     <div>
-      <Joke
+      {jokeElements}
+    </div>
+    /* <Joke
         setup="I got my daughter a fridge for her birthday."
         punchline="I can't wait to see her face light up when she opens it."
       />
@@ -19,7 +25,6 @@ export default function App() {
       <Joke
         setup="Why do bees stay in the hive in the winter?"
         punchline="I don't know, but the flag is a big plus!"
-      />
-    </div>
+      /> */
   );
 }
