@@ -22,7 +22,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <Card 
-        img="src/assets/katie-zaferes.png"
+        img="public/assets/katie-zaferes.png"
         rating="5.0"
         reviewCount={6}
         country="USA"

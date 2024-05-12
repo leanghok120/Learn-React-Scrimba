@@ -5,7 +5,7 @@ export default function Hero() {
     <main className="hero">
       <div className="grid-container">
         <img
-          src="src/assets/photo-grid.png"
+          src="public/assets/photo-grid.png"
           alt="photo-grid"
           className="air-grid"
         />
