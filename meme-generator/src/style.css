@@ -7,9 +7,35 @@
 html,
 body {
   height: 100vh;
+  font-family: "Karla", sans-serif;
+}
+
+.header {
+  padding: 30px;
+  height: 65px;
+  background-image: linear-gradient(to right, #672280, #A626D3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  gap: 7px;
 }
 
 .header img {
   width: 31px;
   height: 26px;
+}
+
+.header-title {
+  color: white;
+  letter-spacing: -10%;
+  font-size: 20px;
+}
+
+.course-title {
+  color: white;
+  font-size: 12px;
 }
