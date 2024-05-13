@@ -8,3 +8,8 @@ html,
 body {
   height: 100vh;
 }
+
+.header img {
+  width: 31px;
+  height: 26px;
+}
