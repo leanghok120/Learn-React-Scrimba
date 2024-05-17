@@ -7,6 +7,6 @@ export default function App() {
     <div className="container">
       <Header />
       <Meme />
-    </div>
+   </div>
   )
 }
