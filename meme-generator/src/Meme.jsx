@@ -2,14 +2,17 @@ import React from "react";
 import memesData from "./memesData";
 
 export default function Meme() {
+  let memeImage
   function fetchImage() {
     const memesList = memesData.data.memes;
     const randomMeme = memesList[Math.floor(Math.random() * memesList.length)];
 
-    console.log(randomMeme.url);
+    memeImage = randomMeme.url
+    console.log(memeImage);
   }
   return (
     <main className="meme-container">
+      <p>{memeImage}</p>
       <div className="text-form">
         <div className="text-form-container">
           <label htmlFor="toptext">Top text</label>
